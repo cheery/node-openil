@@ -1,13 +1,13 @@
-= DevIL bindings for node.js
+# DevIL bindings for node.js
 
 There apparently isn't an up-to-date image library that'd handle decoding. Therefore I decided to write bindings for openil. If you have something better, use that instead.
 
-== Installation (debian, ubuntu)
+## Installation (debian, ubuntu)
 
     sudo apt-get install libdevil-dev
     npm install openil
 
-== Usage
+## Usage
 
     var il = require('openil');
     var image = il.loadSync('cat.png');
